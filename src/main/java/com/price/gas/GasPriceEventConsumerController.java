@@ -10,6 +10,7 @@ public class GasPriceEventConsumerController {
 	
 	@RequestMapping("/heartbeat")
 	public String getConsumerHeartBeat() {
+		System.out.println("Consumer Alive");
 		return "Consumer Alive";
 	}
 
